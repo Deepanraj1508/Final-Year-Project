@@ -1,2 +1,17 @@
-# Final-Year-Project
-The web page portfolio  as an  introduction to the portfolio and provides an overview of the types of projects, skills,  experiences, and social media contact link that the portfolio showcases.
+## Final Year Project✨
+
+Responsive Portfolio Website Using HTML, CSS and JavaScript, with a beautiful user interface. 
+Website contains: 
+- Header 
+- Home
+- About
+- Skills
+- Qualification
+- Portfolio
+- Contact
+- Footer 
+
+If u liked my website and the code was useful to you, <br>
+feel free to leave a star (much appreciated) fork it and customize as you like! :)
+
+
