@@ -14,6 +14,10 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="./packages/css/styles.css">
 
+    <!--==================== Icons ====================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
     <title>Portfolio</title>
 </head>
 
@@ -81,7 +85,8 @@
                         <a href="https://github.com/Deepanraj1508" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
-                        <a href="https://api.whatsapp.com/send?phone=917708486647" target="_blank" class="home__social-icon">
+                        <a href="https://api.whatsapp.com/send?phone=917708486647" target="_blank"
+                            class="home__social-icon">
                             <i class="uil uil-whatsapp-alt"></i>
                         </a>
                     </div>
@@ -107,10 +112,13 @@
 
                     <div class="home__data">
                         <h1 class="home__title">Hi, I am Deepanraj </h1>
-                        <h3 class="home__subtitle">Student</h3>
-                        <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-                            dolorum possimus nesciunt earum saepe accusamus mollitia, blanditiis distinctio at totam
-                            voluptate maiores necessitatibus quibusdam qui quae quod soluta fuga rerum!.</p>
+                        <h3 class="home__subtitle">Python Developer</h3>
+                        <p class="home__description">Experienced Python developer with a solid understanding of
+                            programming fundamentals. Proficient in Python and SQL, enthusiastic
+                            about developing efficient and dependable applications. Possesses
+                            excellent problem-solving skills and works well in a team. Looking
+                            forward to making a valuable contribution to software development
+                            projects.</p>
                         <a href="#contact" class="button button--flex home__button">
                             Contact Me<i class="uil uil-message button__icon"></i>
                         </a>
@@ -141,21 +149,21 @@
                     </p>
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">Fresher</span>
-                            <span class="about__info-name">Years <br> experience</span>
+                            <span class="about__info-title">5+</span>
+                            <span class="about__info-name">Months <br> experience</span>
                         </div>
                         <div>
                             <span class="about__info-title">05+</span>
                             <span class="about__info-name">Completed <br> certifications</span>
                         </div>
                         <div>
-                            <span class="about__info-title">0</span>
+                            <span class="about__info-title">1</span>
                             <span class="about__info-name">companies<br>worked</span>
                         </div>
                     </div>
 
                     <div class="about__buttons">
-                        <a download="" href="packages/images/Resume Deepanraj.pdf" class="button button--flex">
+                        <a download="" href="packages/images/Deepanraj K (1).pdf" class="button button--flex">
                             Download CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
@@ -188,8 +196,8 @@
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">C++</h3>
-                                    <span class="skills__number">50%</span>
+                                    <h3 class="skills__name">MySql</h3>
+                                    <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__c"></span>
@@ -237,20 +245,60 @@
 
             <div class="qualification__container container">
                 <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                    <div class="qualification__button button--flex qualification__active" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                    <div class="qualification__button button--flex " data-target='#education'>
                         <i class="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
 
-                    <div class="qualification__button button--flex" data-target="#work">
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Work
-                    </div>
                 </div>
 
                 <div class="qualification__sections">
+
+                    <!--==================== EXPERIENCE CONTENT 2 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="work">
+                        <!--==================== EXPERIENCE 2  ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Python Developer</h3>
+                                <span class="qualification__subtitle">Vybog, VY Ventures.Pvt</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    11/2023 - Present
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <!--==================== EXPERIENCE 1 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Community Management Intern</h3>
+                                <span class="qualification__subtitle">Aspira - Namakkal</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022 - 2023
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
                     <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                    <div class="qualification__content qualification__active" data-content id="education">
+                    <div class="qualification__content" data-content id="education">
                         <!--==================== QUALIFICATION 1 ====================-->
                         <div class="qualification__data">
                             <div>
@@ -323,27 +371,6 @@
 
                         </div>
                     </div>
-
-                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                    <div class="qualification__content" data-content id="work">
-                        <!--==================== QUALIFICATION 1 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Community Management Intern</h3>
-                                <span class="qualification__subtitle">Aspira - Namakkal</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -360,15 +387,22 @@
                     <!--==================== PROJECT 1 ====================-->
 
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="./packages/images/Project.jpg" alt="" class="portfolio__img">
+                        <img src="./packages/images/nature.png" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Project 1</h3>
-                            <p class="portfolio__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Officiis excepturi eos placeat voluptatibus! Quod praesentium voluptas necessitatibus,
-                                fugit non odio debitis, amet qui eveniet magni quae? Reiciendis voluptates obcaecati
-                                beatae.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <h3 class="portfolio__title">Nature Captured Garden</h3>
+                            <p class="portfolio__description">A garden is a planned plot of land adjoining a house that
+                                is used for cultivating new plants, flowers and fruits in trees and other forms of
+                                nature.
+                            </p>
+                            <div class="platform-icons">
+                                <img src="./packages/images/html.png" alt="html Icon">
+                                <img src="./packages/images/css (1).png" alt="css Icon">
+                                <img src="./packages/images/javascript.png" alt="javascript Icon">
+                                <img src="./packages/images/python (1).png" alt="python Icon">
+                            </div>
+                            <a href="https://deepankumar.pythonanywhere.com/"
+                                class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -378,15 +412,24 @@
                     <!--==================== PROJECT 2 ====================-->
 
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="./packages/images/Project.jpg" alt="" class="portfolio__img">
+                        <img src="./packages/images/Home.png" alt="" class="portfolio__img">
 
                         <div class="portfolio_">
-                            <h3 class="portfolio__title">Project 2</h3>
-                            <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Adipisci sint voluptatum dolor, voluptates doloremque iusto dolore modi consequatur,
-                                eveniet eius, suscipit in! Rerum quia possimus suscipit dicta consectetur eaque iste?
-                            </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <h3 class="portfolio__title"> Bank Management System</h3>
+                            <p class="portfolio__description">The Bank Management System it's a simple software that
+                                brings together important
+                                tasks like helping customers, managing accounts,and making
+                                reports.</p>
+                            <div class="platform-icons">
+                                <img src="./packages/images/html.png" alt="html Icon">
+                                <img src="./packages/images/css (1).png" alt="css Icon">
+                                <img src="./packages/images/javascript.png" alt="javascript Icon">
+                                <img src="./packages/images/python (1).png" alt="python Icon">
+                                <img src="./packages/images/mysql.png" alt="mysql Icon">
+                                <img src="./packages/images/sqlite.png" alt="sqlite Icon">
+                            </div>
+                            <a href="https://github.com/Deepanraj1508/Bank_Management_System_using_Python"
+                                class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -404,6 +447,12 @@
                                 Expedita sit molestias ipsa error omnis atque sed magnam, cupiditate quia nihil
                                 suscipit, nobis amet tenetur nesciunt, laudantium nostrum natus aliquam consectetur?.
                             </p>
+                            <div class="platform-icons">
+                                <img src="./packages/images/html.png" alt="html Icon">
+                                <img src="./packages/images/css (1).png" alt="css Icon">
+                                <img src="./packages/images/javascript.png" alt="javascript Icon">
+                                <img src="./packages/images/python (1).png" alt="python Icon">
+                            </div>
                             <a href="#" class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -457,7 +506,7 @@
 
                         <div>
                             <h3 class="contact__title">E-mail</h3>
-                            <span class="contatc__subtitle">deepanraj770848@gmail.com</span>
+                            <span class="contatc__subtitle">deepanraj.k15@gmail.com</span>
                         </div>
                     </div>
 
@@ -513,7 +562,7 @@
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Deepanraj</h1>
-                    <span class="footer__subtitle">Student</span>
+                    <span class="footer__subtitle">Python Developer</span>
                 </div>
 
                 <ul class="footer__links">
